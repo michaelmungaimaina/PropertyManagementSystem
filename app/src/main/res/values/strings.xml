@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright (c) 2023. Maina Michael.
+  -->
+
 <resources>
     <string name="app_name">RentalManagementSystem</string>
     <string name="title_activity_login">LoginActivity</string>
@@ -9,4 +13,51 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="error_mssage_email">Email is required!</string>
+    <string name="error_mssage_id">Id number is required!</string>
+    <string name="error_valid_email">Valid email required!</string>
+    <string name="error_valid_id">Valid id number required!</string>
+    <string name="error_message_password">Password required!</string>
+    <string name="click_me_to_add_new_clients">Click me to add new Clients.</string>
+    <string name="error_first_name">First name is required!</string>
+    <string name="error_middle_name">Missing middle name</string>
+    <string name="error_surname">Surname is required!</string>
+    <string name="error_phone">Phone number is required!</string>
+    <string name="error_valid_phone">Enter a valid number!</string>
+    <string name="error_confirm_password">Confirm password!</string>
+    <string name="error_password_mismatch">Password mismatch!</string>
+    <string name="lbl_register">Register a New Client</string>
+    <string name="lbl_edit">Edit Client Details</string>
+    <string name="error_message_fname">First name is required!</string>
+    <string name="error_message_lname">Surname is required</string>
+    <string name="error_message_phone">Phone number is required!</string>
+    <string name="error_message_valid_phone">Input a valid phone number!</string>
+    <string name="error_message_location">Client location is required</string>
+    <string name="client_update">Client Updated Successfully!</string>
+    <string name="error_phone_number">Phone number already exists!</string>
+    <string name="client_registered">Client registered successfully!</string>
+    <string name="client_exists">Client already exists!</string>
+    <string name="click_me_to_add_new_houses">Click me to add new Houses</string>
+    <string name="lbl_hse_register">Register New House</string>
+    <string name="lbl_hse_edit">Edit House Details</string>
+    <string name="error_message_hsename">House name required!</string>
+    <string name="error_message_hsetype">House type is required!</string>
+    <string name="error_message_hselocation">House location is required!</string>
+    <string name="house_update">Details updated successfully!</string>
+    <string name="house_exists">House name already exists!</string>
+    <string name="house_registered">House registered successfully!</string>
+    <string name="lbl_room_register">Register New Room</string>
+    <string name="lbl_room_edit">Edit Room Details</string>
+    <string name="invalid_room_type">Enter \'Single\' \'Double\' \'Bedsitter\' \'1 Bedroom\' \'2 Bedroom\' \'3 Bedroom\'</string>
+    <string name="error_room_type">Room type is required</string>
+    <string name="error_deposit">Deposit is required</string>
+    <string name="error_rent">Rent is required</string>
+    <string name="invalid_empty_number_of_rooms">Number of room taken is \"1\"</string>
+    <string name="room_exists">Room Already Exists!</string>
+    <string name="layout_not_visible">Press \'ENTER VALUES\' to open input layout.</string>
+    <string name="room_assigned_success">Transaction Successful.</string>
+    <string name="no_unassigned_tenant">No unassigned tenant exists!</string>
+    <string name="click_me_to_add_new_tenant">Add tenant</string>
+    <string name="email_or_phone_exists">Email or phone already exists.</string>
+    <string name="client_register_success">Tenant registered successfully!</string>
 </resources>

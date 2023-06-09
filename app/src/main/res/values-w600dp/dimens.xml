@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright (c) 2023. Maina Michael.
+  -->
+
 <resources>
  <dimen name="activity_horizontal_margin">48dp</dimen>
 </resources>

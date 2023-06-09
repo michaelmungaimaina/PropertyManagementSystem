@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Maina Michael.
+ */
+
 package com.mich.gwan.rms.models;
 
 public class Client extends Manager{
@@ -11,13 +15,12 @@ public class Client extends Manager{
     public Client() {
     }
 
-    public Client(String firstName, String secondName, String thirdName, String location, String phoneNumber, int clientId) {
+    public Client(String firstName, String secondName, String thirdName, String location, String phoneNumber) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.thirdName = thirdName;
         this.location = location;
         this.phoneNumber = phoneNumber;
-        this.clientId = clientId;
     }
 
     public Client(int managerId, int clientId) {

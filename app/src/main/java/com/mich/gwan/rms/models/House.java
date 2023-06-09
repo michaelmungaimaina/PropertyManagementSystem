@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Maina Michael.
+ */
+
 package com.mich.gwan.rms.models;
 
 public class House extends Client{
@@ -9,8 +13,7 @@ public class House extends Client{
     public House() {
     }
 
-    public House(int houseId, String houseName, String location, String houseType) {
-        this.houseId = houseId;
+    public House(String houseName, String location, String houseType) {
         this.houseName = houseName;
         this.location = location;
         this.houseType = houseType;

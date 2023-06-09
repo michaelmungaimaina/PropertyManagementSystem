@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Maina Michael.
+ */
+
 package com.mich.gwan.rms.models;
 
 public class Payment extends Tenant{
@@ -6,6 +10,8 @@ public class Payment extends Tenant{
     private String unpaidAmount;
     private String garbageFee;
     private String month;
+    private String rentInvoice;
+    private String garbageInvoice;
     private int paymentId;
 
     public Payment(){}
@@ -61,6 +67,22 @@ public class Payment extends Tenant{
 
     public void setGarbageFee(String garbageFee) {
         this.garbageFee = garbageFee;
+    }
+
+    public String getRentInvoice() {
+        return rentInvoice;
+    }
+
+    public void setRentInvoice(String rentInvoice) {
+        this.rentInvoice = rentInvoice;
+    }
+
+    public String getGarbageInvoice() {
+        return garbageInvoice;
+    }
+
+    public void setGarbageInvoice(String garbageInvoice) {
+        this.garbageInvoice = garbageInvoice;
     }
 
     public int getPaymentId() {

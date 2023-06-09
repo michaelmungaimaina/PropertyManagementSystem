@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Maina Michael.
+ */
+
 package com.mich.gwan.rms.models;
 
 public class Tenant extends Room{

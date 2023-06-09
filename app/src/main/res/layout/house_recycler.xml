@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2023. Maina Michael.
+  -->
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/selector_recyclerview"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="0dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:cardBackgroundColor="#02334DF1"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/houseName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:lines="1"
+            android:text="HOUSE NAME"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#190505"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center|center_vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            app:cardBackgroundColor="#02334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/id"
+            app:layout_constraintEnd_toStartOf="@+id/bp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="2dp"
+                    android:text="TYPE: "
+                    android:lines="1"
+                    android:gravity="start|center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#290707"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/textViewHouseType"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="2dp"
+                    android:hint="House Type"
+                    android:lines="1"
+                    android:gravity="start|center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#290707"
+                    android:textSize="13sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="10dp"
+            app:cardBackgroundColor="#05334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/bp"
+            app:layout_constraintEnd_toStartOf="@+id/sp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/id">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="2dp"
+                android:text="LOCATION: "
+                android:lines="1"
+                android:gravity="end|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="14sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bp">
+
+            <TextView
+                android:id="@+id/houseLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="6dp"
+                android:hint="House Location"
+                android:lines="1"
+                android:gravity="start|center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="13sp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="#190037FA"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

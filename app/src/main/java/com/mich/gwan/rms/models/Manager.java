@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Maina Michael.
+ */
+
 package com.mich.gwan.rms.models;
 
 public class Manager {
@@ -7,6 +11,7 @@ public class Manager {
     private String phoneNumber;
     private String location;
     private String email;
+    private String password;
     private int managerId;
 
     public Manager() {
@@ -24,6 +29,13 @@ public class Manager {
 
     public Manager(int managerId){
         this.managerId = managerId;
+    }
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getFirstName() {
